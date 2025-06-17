@@ -73,5 +73,5 @@ Layout adapts smoothly using `flex-wrap`, `media queries`, and `max-width`.
 
 ## Live Demo
 
-View the live portfolio site here: 
+View the live Smile NGO  site here:  https://jignabahenkalani.github.io/week2-assignment/
 My github link here: https://github.com/JignabahenKalani
