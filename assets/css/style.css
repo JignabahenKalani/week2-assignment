@@ -1,5 +1,4 @@
 /* css variable for styling */
-
 :root{
     --primary-color:#b17f39;
     --secondary-color:#351e82;
@@ -10,7 +9,6 @@
     --padding:1px;
     --font-faimly: 'Times New Roman', Times, serif;
 }
-
 /* globle style */
 *{
     box-sizing: border-box;
@@ -86,12 +84,12 @@ nav ul a:hover::after,nav ul a:focus::after{
     width: 100%;
 }
 
-/* Hide checkbox */
+/* toggle menu for respnsive webpage */
 .menu-toggle {
   display: none;
 }
 
-/* Hamburger icon */
+/* hamburger icon for mobile menu or responsive webpage  */
 .hamburger {
   display: none;
   font-size: 2rem;
@@ -103,12 +101,12 @@ nav ul a:hover::after,nav ul a:focus::after{
 }
 
 
-/*dropdown list hover */
+/*dropdown list hover for our work section  */
 .dropdown {
   position: relative;
   display: inline-block;
 }
-/* Navigation using ul/li */
+/* navigation using ul/li */
 .nav-menu {
   list-style: none;
   margin: 0;
@@ -131,7 +129,7 @@ nav ul a:hover::after,nav ul a:focus::after{
   font-weight: bold;
 }
 
-/* Dropdown styles */
+/* dropdown styles */
 .dropdown-menu {
   display: none;
   position: absolute;
@@ -159,7 +157,7 @@ nav ul a:hover::after,nav ul a:focus::after{
   background-color: var(--background-color);
 }
 
-/* Show dropdown on hover */
+/* show dropdown on hover */
 .dropdown:hover .dropdown-menu{
     display: block;
 }
@@ -172,7 +170,7 @@ main{
     padding: var(--padding);
 }
 
-/* all pages service  section */
+/* all pages section */
 
 section{
     background-color: white;
@@ -203,7 +201,7 @@ section{
   flex-shrink: 0;
 }
 
-/* animation */
+/* animation for slider  */
 @keyframes slide {
   0%   { transform: translateX(0%); }
   30%  { transform: translateX(0%); }
@@ -276,7 +274,7 @@ section{
   text-align: center;
 }
 
-/* Flex layout for 3 boxes in a row */
+/* flex layout for 3 boxes in a row */
 .boxes-grid {
   display: flex;
   justify-content: center;
@@ -307,7 +305,7 @@ section{
   transition: color 0.3s ease;
 }
 
-/* Hover Effects */
+/* hover Effects on a box contain  */
 .box:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -317,7 +315,7 @@ section{
   color: var(--primary-color);
 }
 
-/* Responsive: stack boxes on small screens */
+/* responsive: stack boxes on small screens */
 @media (max-width: 768px) {
   .boxes-grid {
     flex-direction: column;
@@ -396,6 +394,7 @@ button:hover,
 button:focus {
   background-color: var(--secondary-color);
 }
+/* pseudo ::before content emoji for contact ,login and signup page */
 label {
     display: block;
     margin-bottom: 5px;
@@ -506,22 +505,7 @@ footer {
     margin-bottom: 1.2rem;
   }
 }
-
-/* responsive design */
-/* @media (max-width: 768px) {
-  nav {
-    justify-content: space-around;
-  }
-
-  .services-list {
-    flex-direction: column;
-  }
-
-  .service-item {
-    flex: 1 1 100%;
-  }
-} */
-
+/* Responsive:for a menu section  */
 @media (max-width: 768px) {
   nav {
     flex-wrap: nowrap;
